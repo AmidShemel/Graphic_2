@@ -7,7 +7,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button bt;
+//    Button bt;
     private Drawing mDrawing;
 
     @Override
@@ -17,14 +17,14 @@ public class MainActivity extends AppCompatActivity {
 
         mDrawing = findViewById(R.id.drawing);
 
-        bt = findViewById(R.id.button1);
-
-        bt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mDrawing.swapColor();
-            }
-        });
+//        bt = findViewById(R.id.button1);
+//
+//        bt.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                mDrawing.swapColor();
+//            }
+//        });
 
     }
 }
